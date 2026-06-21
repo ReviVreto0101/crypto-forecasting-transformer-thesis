@@ -1,0 +1,28 @@
+asset,horizon,model_a,model_b,dm_squared_error_stat,dm_squared_error_p_value,wilcoxon_p_value,n,conclusion_squared_error
+BTC,1,TFT_LOG_RETURN,ARIMA,2.3178,0.020462,0.007356,549,ARIMA significantly outperforms TFT_LOG_RETURN
+BTC,1,TFT_LOG_RETURN,LSTM,-13.2795,0.0,0.0,549,TFT_LOG_RETURN significantly outperforms LSTM
+BTC,1,LSTM,ARIMA,13.2672,0.0,0.0,549,ARIMA significantly outperforms LSTM
+BTC,7,TFT_LOG_RETURN,ARIMA,4.4301,9e-06,0.0,543,ARIMA significantly outperforms TFT_LOG_RETURN
+BTC,7,TFT_LOG_RETURN,LSTM,-4.7736,2e-06,0.0,543,TFT_LOG_RETURN significantly outperforms LSTM
+BTC,7,LSTM,ARIMA,5.2825,0.0,0.0,543,ARIMA significantly outperforms LSTM
+BTC,30,TFT_LOG_RETURN,ARIMA,2.5356,0.011227,0.0,520,ARIMA significantly outperforms TFT_LOG_RETURN
+BTC,30,TFT_LOG_RETURN,LSTM,-1.5321,0.125494,0.0,520,No statistically significant difference between TFT_LOG_RETURN and LSTM
+BTC,30,LSTM,ARIMA,2.4644,0.013725,0.0,520,ARIMA significantly outperforms LSTM
+ETH,1,TFT_LOG_RETURN,ARIMA,1.2164,0.223814,0.086573,549,No statistically significant difference between TFT_LOG_RETURN and ARIMA
+ETH,1,TFT_LOG_RETURN,LSTM,-13.8492,0.0,0.0,549,TFT_LOG_RETURN significantly outperforms LSTM
+ETH,1,LSTM,ARIMA,13.9158,0.0,0.0,549,ARIMA significantly outperforms LSTM
+ETH,7,TFT_LOG_RETURN,ARIMA,3.3752,0.000738,0.0,543,ARIMA significantly outperforms TFT_LOG_RETURN
+ETH,7,TFT_LOG_RETURN,LSTM,-5.7364,0.0,0.0,543,TFT_LOG_RETURN significantly outperforms LSTM
+ETH,7,LSTM,ARIMA,6.5707,0.0,0.0,543,ARIMA significantly outperforms LSTM
+ETH,30,TFT_LOG_RETURN,ARIMA,2.9753,0.002927,0.0,520,ARIMA significantly outperforms TFT_LOG_RETURN
+ETH,30,TFT_LOG_RETURN,LSTM,-0.3849,0.700306,0.180769,520,No statistically significant difference between TFT_LOG_RETURN and LSTM
+ETH,30,LSTM,ARIMA,2.4312,0.015048,0.0,520,ARIMA significantly outperforms LSTM
+BNB,1,TFT_LOG_RETURN,ARIMA,-0.1137,0.909496,0.223383,549,No statistically significant difference between TFT_LOG_RETURN and ARIMA
+BNB,1,TFT_LOG_RETURN,LSTM,-11.8805,0.0,0.0,549,TFT_LOG_RETURN significantly outperforms LSTM
+BNB,1,LSTM,ARIMA,12.4376,0.0,0.0,549,ARIMA significantly outperforms LSTM
+BNB,7,TFT_LOG_RETURN,ARIMA,2.8113,0.004934,0.0,543,ARIMA significantly outperforms TFT_LOG_RETURN
+BNB,7,TFT_LOG_RETURN,LSTM,-3.0016,0.002686,0.0,543,TFT_LOG_RETURN significantly outperforms LSTM
+BNB,7,LSTM,ARIMA,6.0105,0.0,0.0,543,ARIMA significantly outperforms LSTM
+BNB,30,TFT_LOG_RETURN,ARIMA,2.1896,0.028551,0.0,520,ARIMA significantly outperforms TFT_LOG_RETURN
+BNB,30,TFT_LOG_RETURN,LSTM,3.0334,0.002418,0.0,520,LSTM significantly outperforms TFT_LOG_RETURN
+BNB,30,LSTM,ARIMA,-0.7183,0.472594,1.9e-05,520,No statistically significant difference between LSTM and ARIMA
